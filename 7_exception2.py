@@ -17,8 +17,7 @@ def discounted(price, discount, max_discount=20):
     """
     Замените pass на ваш код
     """
-    # if type(price) not in (float, int) or type(discount) in (float, int) or type(max_discount) is not float:
-    #     raise TypeError
+    
     try:
         price = float(price)
         discount = float(discount)
