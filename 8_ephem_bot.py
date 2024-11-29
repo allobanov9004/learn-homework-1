@@ -75,8 +75,13 @@ def define_constellation(update, context):
         pluto.compute(today)
         const = f'Pluto in {list(ephem.constellation(pluto))[1]}'
         update.message.reply_text(const)
+    elif planet == 'uranus' or planet == 'уран':
+        uranus = ephem.Uranus()
+        uranus.compute(today)
+        const = f'Uranus in {list(ephem.constellation(uranus))[1]}'
+        update.message.reply_text(const)   
     else:
-        text = 'another one'
+        text = 'введите другую планету'
         update.message.reply_text(text)
 
 def talk_to_me(update, context):

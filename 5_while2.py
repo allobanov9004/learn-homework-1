@@ -18,6 +18,7 @@
 questions_and_answers = {"Как дела": "Хорошо!", "Что делаешь?": "Программирую"}
 
 
+
 def ask_user(answers_dict):
     """
     Замените pass на ваш код

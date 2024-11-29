@@ -35,6 +35,7 @@ def discounted(price, discount, max_discount=20):
     return price_with_discount
 
 
+
 if __name__ == "__main__":
     print(discounted(100, 2))
     print(discounted(100, "3"))

@@ -9,6 +9,7 @@
    
 """
 
+
 def hello_user():
     answer = ''    
     while answer != 'Хорошо':
